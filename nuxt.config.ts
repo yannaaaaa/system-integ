@@ -20,7 +20,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public:{
       //@ts-ignore
-      googleClientId: process.env.NUXT_PUBLIC_GOOGLE_CLIENT_ID
+      googleClientId: process.env.NUXT_PUBLIC_GOOGLE_CLIENT_ID,
     }
   }
 })

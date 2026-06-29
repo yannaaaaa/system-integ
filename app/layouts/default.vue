@@ -1,6 +1,7 @@
 <template>
   <v-app>
-    <slot />
+    <slot></slot>
+  
   </v-app>
 </template>
 
