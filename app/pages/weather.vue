@@ -104,7 +104,7 @@ const currentWeather = ref(null)
 
 const getWeatherData2 = async () => {
   try {
-    const data = await $fetch('http://api.weatherapi.com/v1/forecast.json?key=0efc29429d57484fb5232751262906&q=Manila&days=7&aqi=no&alerts=no')
+    const data = await $fetch('https://api.weatherapi.com/v1/forecast.json?key=0efc29429d57484fb5232751262906&q=Manila&days=7&aqi=no&alerts=no')
 
     if (data) {
       console.log(data)
