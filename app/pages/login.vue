@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex mx-auto justify-center align-center" style="height: 95vh;">
-    <v-card class="pa-8 text-center" width="500" elevation="4" rounded="x1">
+    <v-card class="pa-8 text-center" width="500" elevation="4" rounded="xl">
       <p class="text-center text-headline-large font-weight-bold">Login</p>
       <p class="text-center">Welcome back, please login</p>
 
